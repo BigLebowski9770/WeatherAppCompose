@@ -1,0 +1,77 @@
+# --- Gradle / build ---
+.gradle/
+**/build/
+!**/src/**/build/
+.kotlin/
+*.hprof
+
+# --- Local machine config (never commit) ---
+local.properties
+*.iml
+
+# --- Android artifacts ---
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# --- Native / NDK ---
+.externalNativeBuild/
+.cxx/
+
+# --- Android Studio / IntelliJ ---
+.idea/caches/
+.idea/libraries/
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/dictionaries/
+.idea/httpRequests/
+.idea/usage.statistics.xml
+.idea/contentModel.xml
+.idea/git_toolbox_prj.xml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+
+# Keep in repo (optional team settings):
+# .idea/compiler.xml
+# .idea/misc.xml
+# .idea/vcs.xml
+# .idea/AndroidProjectSystem.xml
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Secrets / signing ---
+*.jks
+*.keystore
+secrets.properties
+.env
+.env.*
+
+# --- Fastlane ---
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# --- Lint ---
+**/lint/intermediates/
+**/lint/generated/
+**/lint/outputs/
+**/lint/tmp/
+
+# --- Captures / profiling ---
+captures/
+*.trace
+
+# --- Editor (optional local) ---
+.vscode/
+.cursor/

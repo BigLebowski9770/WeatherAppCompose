@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sky_blue">#FF4A90D9</color>
+    <color name="sky_blue_light">#FF6BB5E8</color>
+    <color name="cloud_white">#FFF4F8FC</color>
+    <color name="night_background">#FF0F1419</color>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Minimal water drop, centered in adaptive icon safe zone -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30 C54,30 39,54 39,67 C39,77.4 45.6,84 54,84 C62.4,84 69,77.4 69,67 C69,54 54,30 54,30 Z" />
+    <path
+        android:fillColor="#D6EBFF"
+        android:pathData="M48,52 C48,52 46,58 46,62 C46,65.3 48.7,68 52,68 C52.8,68 53.5,67.8 54.2,67.5 C52.5,63.5 50.5,57.5 48,52 Z" />
+</vector>
